@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CompletePlayerController : MonoBehaviour
-{
+public class PlayerMovement : MonoBehaviour {
+    
     private float verticalVelocity;
     public float speed;
     private Rigidbody2D rb2d;
